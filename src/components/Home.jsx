@@ -9,10 +9,12 @@ const Home = () => {
 			<div className=" md:w-2/4 text-center">
 				<h2 className=" text-5xl font-semibold leading-tight">
 					Knowledge with
-					<span className="text-brightGreen"> eStudy</span>
+					<span className="text-brightGreen"> ATLAS</span>
 				</h2>
 				<p className=" text-lightText mt-5 text-start">
-					eStudy is your gateway to a world of limitless learning possibilities.
+					ATLAS is your gateway to a world of limitless learning possibilities.
+					
+
 					With our cutting-edge eLearning platform, you can explore a vast
 					library of courses, from academic subjects to practical skills, all
 					designed to help you achieve your goals.

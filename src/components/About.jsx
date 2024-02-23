@@ -14,8 +14,8 @@ const About = () => {
 			<div className="w-full md:w-2/4 text-center space-y-2">
 				<Heading title1="About" title2="Us?" />
 				<p className=" text-lightText">
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate
-					molestiae consequuntur iste placeat recusandae qui nesciunt possimus.
+				Welcome to ATLAS, your all-in-one solution for streamlined education administration. Our intuitive platform empowers schools, colleges, and universities to enhance efficiency, communication, and student success. From seamless enrollment and attendance tracking to comprehensive grade management and parent engagement tools, we've got you covered. Join thousands of educators worldwide to simplify administrative tasks and elevate the learning experience. Experience the future of education management today.
+
 				</p>
 
 				<Link to="contact" spy={true} smooth={true} duration={500}>
