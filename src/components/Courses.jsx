@@ -14,15 +14,9 @@ import img4 from "../assets/newImages/594.jpg"
 const Courses = () => {
 	return (
 		<div className=" min-h-screen flex flex-col items-center md:px-32 px-5 my-10">
-			<Heading title1="Our" title2="Courses" />
 			<Heading title1="What we" title2="Offer" />
 
 			<div className=" flex flex-wrap justify-center gap-6 mt-6">
-				<CoursesCard img={webImg} title="Web Development" />
-				<CoursesCard img={appImg} title="App Development" />
-				<CoursesCard img={graphicImg} title="Graphic Designer" />
-				<CoursesCard img={digitalImg} title="Digital Marketing" />
-
 				<CoursesCard img={img1} title={'image 1'}/>
 				<CoursesCard img={img2} title={'image 2'}/>
 				<CoursesCard img={img3} title={'image 3'}/>
