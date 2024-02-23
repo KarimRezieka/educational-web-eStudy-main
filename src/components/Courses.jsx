@@ -6,10 +6,10 @@ import appImg from "../assets/App-dev.svg"
 import graphicImg from "../assets/graphic.svg"
 import digitalImg from "../assets/digital.svg"
 
-import img1 from "../assets/newImages/560.jpg"
-import img2 from "../assets/newImages/561.jpg"
-import img3 from "../assets/newImages/566.jpg"
-import img4 from "../assets/newImages/594.jpg"
+import bus from "../assets/newImages/bus.png"
+import customerSupport from "../assets/newImages/support.jpg"
+import faceRecog from "../assets/newImages/betterFaceRecog.png"
+import medicalHistory from "../assets/newImages/medical.jpg"
 
 const Courses = () => {
 	return (
@@ -17,10 +17,11 @@ const Courses = () => {
 			<Heading title1="What we" title2="Offer" />
 
 			<div className=" flex flex-wrap justify-center gap-6 mt-6">
-				<CoursesCard img={img1} title={'image 1'}/>
-				<CoursesCard img={img2} title={'image 2'}/>
-				<CoursesCard img={img3} title={'image 3'}/>
-				<CoursesCard img={img3} title={'image 4'}/>
+				<CoursesCard img={bus} title={'Bus location monitoring'}/>
+				<CoursesCard img={customerSupport} title={'AI chat for customer support'}/>
+				<CoursesCard img={faceRecog} title={'face recognition + facial expresstion detection'}/>
+				<CoursesCard img={medicalHistory} title={'Medical history for students'}/>
+
 			</div>
 		</div>
 	)

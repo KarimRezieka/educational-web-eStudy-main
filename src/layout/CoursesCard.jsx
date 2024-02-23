@@ -11,10 +11,10 @@ const CoursesCard = (props) => {
         <h3 className="font-semibold text-lg text-center my-5">
           {props.title}
         </h3>
-        <p className="text-lightText text-center md:text-start">
+        {/* <p className="text-lightText text-center md:text-start">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit this is the
           web
-        </p>
+        </p> */}
       </div>
     </div>
   );
