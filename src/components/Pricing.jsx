@@ -77,7 +77,7 @@ const Pricing = () => {
             </h3>
             <p className="text-tertiary text-center my-6">{pkg.description}</p>
             <p className="mt-5 text-center text-secondary text-4xl font-bold">
-              {isYearly ? `${pkg.yearlyPrice}` : `$${pkg.monthlyPrice}`}
+              {isYearly ? `${pkg.yearlyPrice}` : `${pkg.monthlyPrice}`}
             </p>
             <ul
               className="mt-4 space-y-2 px-4"
