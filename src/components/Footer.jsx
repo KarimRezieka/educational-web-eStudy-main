@@ -31,16 +31,7 @@ const Footer = () => {
 						duration={500}
 						className="hover:text-[#539165] transition-all cursor-pointer"
 					>
-						Courses
-					</Link>
-					<Link
-						to="reviews"
-						spy={true}
-						smooth={true}
-						duration={500}
-						className="hover:text-[#539165] transition-all cursor-pointer"
-					>
-						Reviews
+						Features
 					</Link>
 					<Link
 						to="contact"
@@ -55,17 +46,9 @@ const Footer = () => {
 
 				<div className=" mt-4 md:mt-0">
 					<Link to="/" className=" font-semibold text-2xl p-1 cursor-pointer">
-						eStudy
+						ATLAS
 					</Link>
 				</div>
-			</div>
-
-			<div className=" text-center mt-4">
-				<p>
-					@copyright developed by
-					<span className="text-brightGreen px-2">champion programmers</span>|
-					All rights reserved
-				</p>
 			</div>
 		</div>
 	)

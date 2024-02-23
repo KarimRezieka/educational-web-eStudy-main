@@ -44,7 +44,7 @@ const Navbar = () => {
 						duration={500}
 						className="hover:text-[#539165] transition-all cursor-pointer"
 					>
-						Courses
+						Features
 					</Link>
 					<Link
 						to="contact"
