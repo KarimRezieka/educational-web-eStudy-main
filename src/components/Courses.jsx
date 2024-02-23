@@ -1,10 +1,6 @@
 import React from "react"
 import Heading from "../layout/Heading"
 import CoursesCard from "../layout/CoursesCard"
-import webImg from "../assets/web-dev.svg"
-import appImg from "../assets/App-dev.svg"
-import graphicImg from "../assets/graphic.svg"
-import digitalImg from "../assets/digital.svg"
 
 import bus from "../assets/newImages/bus.png"
 import customerSupport from "../assets/newImages/support.jpg"
