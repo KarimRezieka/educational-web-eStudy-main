@@ -47,15 +47,6 @@ const Navbar = () => {
 						Courses
 					</Link>
 					<Link
-						to="reviews"
-						spy={true}
-						smooth={true}
-						duration={500}
-						className="hover:text-[#539165] transition-all cursor-pointer"
-					>
-						Reviews
-					</Link>
-					<Link
 						to="contact"
 						spy={true}
 						smooth={true}
